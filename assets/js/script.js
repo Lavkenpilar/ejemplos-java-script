@@ -15,11 +15,17 @@ function nombre_persona (nombre) {
 nombre_persona ("pilar")
 let button = document.getElementById ("#mari")
 console.log (mari)
-/*mari.addEventListener ("click", function () {
+mari.addEventListener ("click", function () {
     alert ("Mari mari kom pu che")
 }
-) */
+) 
 mari.addEventListener ("click", function () {
     document.querySelector ("h1").innerHTML="Titulo Nuevo"
 }
 )
+
+let button2 = document.getElementById ("hello")
+console.log (hello)
+hello.addEventListener("click", function(){
+    alert ("hello")
+})
